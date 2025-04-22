@@ -17,7 +17,7 @@ import java.util.Random;
 public class StockPriceFetcherService {
 
     private static final Logger logger = LoggerFactory.getLogger(StockPriceFetcherService.class);
-    private final List<String> stockSymbols = Arrays.asList("AAPL", "GOOGL", "MSFT", "AMZN", "TSLA");
+    private final List<String> stockSymbols = Arrays.asList("AAPLE", "GOOGLE", "MICROSOFT", "AMAZON", "TESLA");
     private final Random random = new Random();
 
     @Autowired
